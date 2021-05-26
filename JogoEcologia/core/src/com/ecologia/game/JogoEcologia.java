@@ -46,7 +46,7 @@ public class JogoEcologia extends Game {
 		batch = new SpriteBatch();
 		
 		musica = Gdx.audio.newMusic(Gdx.files.internal("data/blinding (90bpm).mp3"));
-	
+		musica.setLooping(true);
 		musica.play();
 		
 		
