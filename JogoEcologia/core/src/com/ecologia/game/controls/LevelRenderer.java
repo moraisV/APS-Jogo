@@ -157,6 +157,8 @@ public class LevelRenderer {
 			Rectangle rect = ((RectangleMapObject) object).getRectangle();
 			Vidro vidros = new Vidro(world, bdef, map, fdef, rect, player );			
 		}	
+		
+		//Layer do caminhao (chegada do nivel)
 		for (MapObject object : map.getLayers().get(13).getObjects().getByType(RectangleMapObject.class)) {
 			Rectangle rect = ((RectangleMapObject) object).getRectangle();
 			Caminhao caminhao = new Caminhao(world, bdef, map, fdef, rect);

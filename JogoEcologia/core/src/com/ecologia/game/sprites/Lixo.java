@@ -48,7 +48,7 @@ public class Lixo {
 			
 			fdef.isSensor = true;
 			
-			fdef.shape.setRadius(2/JogoEcologia.PPM);
+			fdef.shape.setRadius(10/JogoEcologia.PPM);
 			fdef.filter.categoryBits = JogoEcologia.DEFAULT_BIT;
 			fdef.filter.maskBits = JogoEcologia.PLAYER_BIT;
 			fixture = body.createFixture(fdef);
