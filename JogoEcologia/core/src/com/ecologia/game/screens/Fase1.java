@@ -14,11 +14,7 @@ public class Fase1 extends Fases implements Screen {
 
 	
 	private LevelRenderer level1;
-	
-	
-
 	private JogoEcologia game;
-	
 	
 	
 	public Fase1(JogoEcologia game) {
